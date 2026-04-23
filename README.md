@@ -29,6 +29,23 @@ The entire system is containerized using Docker, ensuring a reproducible and sca
 
 ---
 
+## 📂 Dataset Information
+
+This project uses data from NASA’s Astronomy Picture of the Day (APOD) API.
+
+The API provides daily astronomy-related data in JSON format, including metadata about space images.
+
+### 📊 Data Fields Used
+
+The pipeline extracts and stores the following key attributes:
+
+- **date** → Date of the image  
+- **title** → Title of the astronomy picture  
+- **explanation** → Description of the image  
+- **url** → Image URL  
+
+---
+
 ## 🛠️ Tech Stack
 
 - Python  
