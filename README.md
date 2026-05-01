@@ -146,21 +146,21 @@ airflow-etl-pipeline/
 **Prerequisites:** Docker Desktop and Astro CLI installed
 
 bash
-# Clone the repository
+### Clone the repository
 git clone https://github.com/pournima2413/airflow-etl-pipeline
 cd airflow-etl-pipeline
 
-# Start the Airflow environment
+### Start the Airflow environment
 astro dev start
 
-# Open Airflow UI
-# http://localhost:8080
-# Username: admin | Password: admin
+### Open Airflow UI
+  http://localhost:8080
+  Username: admin | Password: admin
 
-# Trigger the DAG from the UI or via CLI
+### Trigger the DAG from the UI or via CLI
 astro run etl_pipeline
 
-# Stop the environment
+### Stop the environment
 astro dev stop
 
 
